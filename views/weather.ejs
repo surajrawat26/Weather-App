@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+      <img class="imagE"src="images/nature.svg" alt="">
+    <div class="divE">
+
+      <h1>Weather app</h1>
+
+    </div>
+
+
+  <p><br>Description of weather: <%= Desc %>  </p>
+  <p>Temperature in <%= site %> is <%= Ts %> but it feels like <%= Tfl %>  </p>
+  <p>Minimum Temperature : <%=Tmin%></p>
+  <p>Maximum temperature: <%=Tmax%></p>
+  <p>Humidity levels are : <%=HL%>%</p>
+  <p>Wind speed is <%=WS%>km/h</p>
+  <br>
+  <img src= "<%=img1%>" alt="">
+
+
+
+  </body>
+</html>
